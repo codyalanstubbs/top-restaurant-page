@@ -1,0 +1,19 @@
+{
+  "name": "top-restaurant-page",
+  "version": "1.0.0",
+  "description": "This project uses webpack to build a dynamic restaurant page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schtubbs/top-restaurant-page.git"
+  },
+  "author": "Cody Stubbs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schtubbs/top-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/schtubbs/top-restaurant-page#readme"
+}
