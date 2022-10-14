@@ -1,0 +1,21 @@
+.bunTop {
+    background-color: #FE9738;
+    border-radius: 400% 400% 10% 10%;
+}
+
+.burger {
+    background-color: #9E5528;
+}
+
+.lettuce {
+    background-color: #BBEC6C;
+}
+
+.tomato {    
+    background-color: #E94444;
+}
+
+.bunBottom {
+    background-color: #FE9738;
+    border-radius: 0 0 100% 100%;
+}
