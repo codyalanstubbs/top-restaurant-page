@@ -1,21 +1,100 @@
-.bunTop {
-    background-color: #FE9738;
-    border-radius: 400% 400% 10% 10%;
+* {
+    font-family: 'Special Elite', cursive;
 }
 
-.burger {
-    background-color: #9E5528;
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
 }
 
-.lettuce {
-    background-color: #BBEC6C;
+a {
+    color: #5A86CC;
 }
 
-.tomato {    
-    background-color: #E94444;
+a:visited {
+    color: #74ff62;;
 }
 
-.bunBottom {
-    background-color: #FE9738;
-    border-radius: 0 0 100% 100%;
+.navBar {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: #74ff62;
+    width: 100%;
+    padding: 25px 0;
+}
+
+.navItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.navItem:hover {
+    cursor: pointer;
+}
+
+.navItem > img {
+    position: absolute;
+    z-index: 1;
+}
+
+
+.navText {
+    font-size: small;
+    color: #74ff62;
+    background-color: #000000cb;
+    z-index: 2;
+}
+
+.navItem:hover > .navText {
+    color: #000000;
+    background-color: #5A86CC;
+}
+
+div#content {
+    background: #282828;
+    border-radius: 20px;
+    height: 100%;
+    width: 85%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.radBlock {
+    color: #74ff62;
+    background: #3a3a3a;
+    border-radius: 10px;
+    border: 10px solid #5A86CC;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.radBlock.title {
+    margin-top: 20px;
+    padding: 20px;
+    width: 85%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.radBlock .customer {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.radBlock .hours {
+    font-size: 28px;
+    text-align: center;
 }
