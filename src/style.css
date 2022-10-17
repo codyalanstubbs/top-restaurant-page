@@ -76,6 +76,8 @@ div#radContent {
     width: 250px;
     margin: 10px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .radBlock.title {
@@ -84,6 +86,7 @@ div#radContent {
     width: 85%;
     text-align: center;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
@@ -97,4 +100,30 @@ div#radContent {
 .radBlock .hours {
     font-size: 28px;
     text-align: center;
+}
+
+.radBlock.menuTitle {
+    color: #5A86CC;
+    border: 10px solid #74ff62;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.description,
+.price {
+    padding-left: 10px;
+}
+
+.radBlock > .itemImage {
+    align-self: flex-end;
+}
+
+.radBlock > p,
+.radBlock > h4 {
+    margin: 0;
+}
+
+.radBlock > h4 {
+    margin: 10px 0;
 }
