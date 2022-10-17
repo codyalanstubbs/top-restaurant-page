@@ -4,13 +4,20 @@ import RadBarrel from './radioactive.png';
 import MoltenSkins from './potato-peeled.jpg';
 import RadFries from './rad-fries.jpg';
 import BlueSoda from './blue-soda.jpg';
+import MrHarrisSr from "./handsome-man-from-1920s-1237578.jpg";
+import MrsHarris from "./sara-butler-my-great-grandma-1256115.jpg";
+import HarrisJr from "./young-man-1-1440578.jpg";
+import Radburger from "./burgers-1325976.jpg";
+import RadburgerCheese from "./cheeseburgers-2102912.jpg";
+import RadburgerDeluxe from "./big-burger-1561088.jpg";
+import MilkShake from "./milk-shake-1326835.jpg";
 
 const contacts = [{
         name: "Mr. Harris Burger, Sr",
         title: "Co-Owner and Chef",
         phone: "555-555-5554",
         email: "totallyRealEmail@notFake.com",
-        img: "",
+        img: MrHarrisSr,
         attribution: '',
     },
     {
@@ -18,16 +25,16 @@ const contacts = [{
         title: "Co-Owner and Chef",
         phone: "555-555-5555",
         email: "perfectlyRealEmail@notFake.com",
-        img: "",
-        attribution: '',
+        img: MrsHarris,
+        attribution: 'freeimages.com',
     },
     {
         name: "Mr. Harris Burger, Jr",
         title: "Itern",
         phone: "555-555-5556",
         email: "totallyRealEmail@notFake.com",
-        img: "",
-        attribution: '',
+        img: HarrisJr,
+        attribution: 'freeimages.com',
 
     }
 ]
@@ -88,7 +95,7 @@ function buildContactUs(contacts) {
         contactImg.src = contact.img;
         contactImg.width = "100";
         contactImg.height = "100";
-        contactImg.alt = "A picture of a person";
+        contactImg.alt = contact.attribution;
         contactDiv.appendChild(contactImg);
 
         radContent.appendChild(contactDiv);
@@ -133,26 +140,26 @@ const menu = [{
                 name: "Radburger",
                 description: "Our classic burger with moderate amounts of radiation",
                 price: "$1.50",
-                img: "",
+                img: Radburger,
                 alt: "A picture of radburger",
-                attribution: ''
+                attribution: 'freeimages.com',
             },
             {
                 name: "Radburger with Cheese",
                 description: "Our classic burger with cheese",
                 price: "$2.00",
-                img: "",
+                img: RadburgerCheese,
                 alt: "A picture of radburger with cheese",
-                attribution: ''
+                attribution: 'freeimages.com',
             },
             {
                 name: "Radburger Deluxe",
                 description: "Our classic burger with cheese AND bacon",
                 price: "$4.00",
-                img: "",
+                img: RadburgerDeluxe,
                 alt: "A picture of radburger with cheese AND backon",
-                attribution: ''
-            }
+                attribution: 'freeimages.com',
+            },
         ]
     },
     {
@@ -161,9 +168,9 @@ const menu = [{
             name: "Susquehanna River Milkshake",
             description: "Made with fresh milk from the surrounding river",
             price: "$5.00",
-            img: "",
+            img: MilkShake,
             alt: "A picture of a milkshake",
-            attribution: ''
+            attribution: 'freeimages.com',
         }]
     }
 ];
@@ -229,7 +236,7 @@ function buildMenu(menu) {
             itemImg.src = item.img;
             itemImg.width = "100";
             itemImg.height = "100";
-            itemImg.alt = item.alt;
+            itemImg.alt = item.attribution;
             contactDiv.appendChild(itemImg);
 
             radContent.appendChild(contactDiv);
