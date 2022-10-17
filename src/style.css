@@ -53,11 +53,11 @@ a:visited {
 }
 
 .navItem:hover > .navText {
-    color: #000000;
-    background-color: #5A86CC;
+    color: #F5DE46;
+    background-color: #3B68B0;
 }
 
-div#content {
+div#radContent {
     background: #282828;
     border-radius: 20px;
     height: 100%;
